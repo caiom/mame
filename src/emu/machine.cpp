@@ -190,6 +190,7 @@ void running_machine::start()
 	m_image = std::make_unique<image_manager>(*this);
 	m_tilemap = std::make_unique<tilemap_manager>(*this);
 	m_crosshair = std::make_unique<crosshair_manager>(*this);
+	m_crosshair_udp = std::make_unique<crosshair_udp>(*this);
 	m_network = std::make_unique<network_manager>(*this);
 
 	// initialize the debugger
