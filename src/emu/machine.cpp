@@ -12,6 +12,7 @@
 
 #include "config.h"
 #include "crsshair.h"
+#include "crsshairudp.h"
 #include "debug/debugcpu.h"
 #include "debug/debugvw.h"
 #include "debugger.h"
